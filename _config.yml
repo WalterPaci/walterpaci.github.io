@@ -88,6 +88,8 @@ pageviews:
 #     dark — Use the dark color scheme
 #
 theme_mode: # [light | dark]
+extra_css:
+  - /assets/custom.css
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -223,6 +225,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-stylesheets:
-  - assets/css/custom.css
