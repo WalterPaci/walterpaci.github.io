@@ -20,7 +20,6 @@ tagline: Computational Linguist & Researcher # it will display as the subtitle
 
 description: Personal website of Walter Paci.
 
-
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://walterpaci.github.io"
@@ -29,7 +28,7 @@ github:
   username: walterpaci # change to your GitHub username
 
 twitter:
-  username: @walter_paci # change to your Twitter username
+  username: walter_paci # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -98,7 +97,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/profilo_adj.png
+avatar: assets/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -224,21 +223,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-tabs:
-  - name: Home
-    icon: home
-    path: /
-  - name: Research
-    icon: book
-    path: /research/
-  - name: CV
-    icon: file-text
-    path: /assets/Walter_Paci_CV.pdf
-    external: true
-  - name: Talks
-    icon: mic
-    path: /talks/
-  - name: Links
-    icon: link
-    path: /links/
