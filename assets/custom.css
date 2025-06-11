@@ -1,0 +1,23 @@
+/* custom.css */
+
+/* Avatar adjustments */
+.avatar {
+  border-radius: 0 !important; /* Remove round corners */
+  width: auto !important; /* Keep natural width */
+  height: auto !important; /* Keep natural height */
+  max-width: 150px; /* Max width, adjust as needed */
+  max-height: 250px; /* Max height to control size */
+  object-fit: contain !important; /* Preserve aspect ratio, no cropping */
+  display: block;
+  margin: 0 auto 1rem auto; /* Center and add bottom spacing */
+}
+
+/* Optional: tweak sidebar width to better fit the avatar */
+.sidebar {
+  width: 220px; /* Adjust sidebar width if needed */
+}
+
+/* Optional: add some spacing below avatar and name */
+.sidebar .author {
+  margin-bottom: 1.5rem;
+}
