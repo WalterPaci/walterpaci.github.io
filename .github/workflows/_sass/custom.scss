@@ -1,0 +1,37 @@
+#sidebar #avatar {
+  display: block;
+  width: 100px;
+  height: 250px;
+  overflow: hidden;
+  box-shadow: none !important;
+  transform: none;
+}
+
+#sidebar #avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down; /* Changed from 'contain' to 'scale-down' */
+  object-position: center;
+  transition: none;
+  border-radius: 0 !important;
+  image-rendering: auto; /* Changed from '-webkit-optimize-contrast' */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.fixed-top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: var(--topbar-bg);
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-bottom: 1px solid var(--main-border-color);
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
