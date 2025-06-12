@@ -43,7 +43,7 @@ jobs:
           bundle install
           bundle exec jekyll build
         env:
-          JEKYLL_ENV: "deployment"
+          JEKYLL_ENV: "empty"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
