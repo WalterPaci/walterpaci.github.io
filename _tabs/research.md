@@ -11,7 +11,7 @@ order: 1
 
 <div class="research-item">
   <div class="research-image">
-    <img src="assets/img/they pretend-image.png" alt="Research visualization">
+    <img src="assets/img/they_pretend-image.png" alt="Research visualization">
   </div>
   <h2 class="research-title">They want to pretend not to understand: The Limits of Current LLMs in Interpreting Implicit Content of Political Discourse </h2>
   <div class="research-venue">Upcoming publication at ACL 2025 Findings</div>
