@@ -24,11 +24,18 @@
   display: block;
   width: 150px;
   height: 250px;
-  overflow: hidden !important;
+  overflow: hidden;
   box-shadow: none !important;
   transform: none !important;
   transition: none !important;
   border-radius: 0;
+}
+
+.sidebar-bottom {
+  top: -30px;
+  position: relative;
+  padding-top: 2rem;
+  margin-top: auto;
 }
 
 .rounded-circle {

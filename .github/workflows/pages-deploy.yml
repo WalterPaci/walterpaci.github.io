@@ -2,7 +2,7 @@ name: "Build and Deploy"
 on:
   push:
     branches:
-      - main # Remove 'master' if you're using 'main' as your default branch
+      - main
     paths-ignore:
       - .gitignore
       - README.md
@@ -43,7 +43,7 @@ jobs:
           bundle install
           bundle exec jekyll build
         env:
-          JEKYLL_ENV: "development"
+          JEKYLL_ENV: "deployment"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
