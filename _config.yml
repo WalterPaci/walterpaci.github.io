@@ -25,7 +25,7 @@ description: Personal website of Walter Paci.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://walterpaci.github.io"
+url: https://walterpaci.github.io
 
 github:
   username: walterpaci # change to your GitHub username
