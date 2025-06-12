@@ -12,7 +12,7 @@
   height: 100vh;
   overflow-x: auto;
   width: 260px;
-  z-index: 0 !important;
+  z-index: 0;
   background-color: var(--sidebar-bg);
   border-right: 1px solid var(--border-color);
   transition: transform 0.3s ease;
