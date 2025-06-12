@@ -2,11 +2,12 @@
 ---
 
 /* prettier-ignore */
-@use "main
+@use "main" {
 {%- if jekyll.environment == 'production' -%}
-  .bundle
+  bundle
 {%- endif -%}
-";
+};
+
 
 /* append your custom style below */
 
