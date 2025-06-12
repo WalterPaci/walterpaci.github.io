@@ -1,6 +1,6 @@
 ---
-title: Talks
-icon: fas fa-microphone
+title: Talks & Conferences
+icon: fas fa-chalkboard-teacher
 order: 2
 ---
 

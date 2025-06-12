@@ -5,15 +5,37 @@
 
 /* custom style below */
 
+#sidebar {
+  position: fixed !important;
+  top: -50px;
+  left: 0;
+  height: 110vh;
+  overflow-x: auto;
+  width: 260px;
+  z-index: 0 !important;
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid var(--border-color);
+  transition: transform 0.3s ease;
+}
+
 #sidebar #avatar {
+  margin-top: 2rem; /* Reduced from default to move it up */
+  margin-bottom: 1rem; /* Reduced spacing after avatar */
   display: block;
   width: 150px;
   height: 250px;
-  overflow: hidden;
+  overflow: hidden !important;
   box-shadow: none !important;
   transform: none !important;
   transition: none !important;
-  border-radius: 0; /* Add this line */
+  border-radius: 0;
+}
+
+.sidebar-bottom {
+  top: -30px;
+  position: relative;
+  padding-top: 2rem;
+  margin-top: auto;
 }
 
 .rounded-circle {
@@ -184,40 +206,3 @@
 }
 
 /* -------------------- FIX PADDING PROBLEMS --------------------------------------  */
-
-// Custom styles to fix padding issues
-.main-content {
-  padding: 2rem 4rem;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.sidebar {
-  padding: 1.5rem;
-}
-
-// Fix navigation spacing
-.nav-item {
-  margin: 0.5rem 0;
-}
-
-// Fix content area spacing
-.post-content {
-  padding: 2rem 0;
-}
-
-// Fix header spacing
-.post-header {
-  margin-bottom: 2rem;
-}
-
-// Fix research section spacing
-.research-section {
-  margin: 2rem 0;
-}
-
-// Fix publications spacing
-.publication-item {
-  margin-bottom: 2rem;
-  padding: 1rem;
-}

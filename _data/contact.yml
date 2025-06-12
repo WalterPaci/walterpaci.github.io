@@ -2,26 +2,19 @@
 
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/walterpaci"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: scholar
+  icon: "fas fa-graduation-cap" # or 'ai ai-google-scholar' if using academicons
+  url: "https://scholar.google.com/citations?user=LG4dTRAAAAAJ&hl=it"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/walter-paci"
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
-# Uncomment and complete the url below to enable more contact options
-#
-# - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
-#
-- type: linkedin
-  icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
-  url: "https://www.linkedin.com/in/walter-paci/" # Fill with your Linkedin homepage
+  url: "mailto:walter.paci@unifi.it"
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
