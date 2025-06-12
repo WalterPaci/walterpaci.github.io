@@ -11,7 +11,7 @@ order: 1
 
 <div class="research-item">
   <div class="research-image">
-    <img src="assets/they pretend-image.png" alt="Research visualization">
+    <img src="assets/img/they pretend-image.png" alt="Research visualization">
   </div>
   <h2 class="research-title">They want to pretend not to understand: The Limits of Current LLMs in Interpreting Implicit Content of Political Discourse </h2>
   <div class="research-venue">Upcoming publication at ACL 2025 Findings</div>
@@ -27,7 +27,7 @@ order: 1
 
 <div class="research-item">
   <div class="research-image">
-    <img src="assets/further_exercise-img.png" alt="Research visualization">
+    <img src="assets/img/further_exercise-img.png" alt="Research visualization">
   </div>
   <h2 class="research-title">“It’s a further exercise in futility”: implicit content detection and classification in Italian political discourse. A pilot study.</h2>
   <div class="research-venue">(Forthcoming) AI-Linguistica. Linguistic Studies on AI-Generated Texts and Discourses</div>
@@ -53,7 +53,7 @@ order: 1
 
 <div class="research-item">
   <div class="research-image">
-    <img src="assets/exploiting-img.png" alt="Research visualization">
+    <img src="assets/img/exploiting-img.png" alt="Research visualization">
   </div>
   <h2 class="research-title">Exploiting ChatGPT to simplify Italian bureaucratic and professional texts</h2>
   <div class="research-venue">(2024) AI-Linguistica. Linguistic Studies on AI-Generated Texts and Discourses</div>
@@ -67,7 +67,7 @@ order: 1
 
 <div class="research-item">
   <div class="research-image">
-    <img src="assets/word_classes-img.png" alt="Research visualization">
+    <img src="assets/img/word_classes-img.png" alt="Research visualization">
   </div>
   <h2 class="research-title">Word classes and corpus linguistics</h2>
   <div class="research-venue">(2023) Manual of Romance Word Classes, De Gruyter</div>
