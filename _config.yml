@@ -90,9 +90,13 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
+sass:
+  style: compressed
+  sourcemap: never
+
 theme_mode: # [light | dark]
-extra_css:
-  - /assets/custom.css
+extras_css:
+  - /assets/css/style.scss
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
