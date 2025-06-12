@@ -182,3 +182,42 @@
   border-radius: 3px;
   font-size: 0.9rem;
 }
+
+/* -------------------- FIX PADDING PROBLEMS --------------------------------------  */
+
+
+// Custom styles to fix padding issues
+.main-content {
+  padding: 2rem 4rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.sidebar {
+  padding: 1.5rem;
+}
+
+// Fix navigation spacing
+.nav-item {
+  margin: 0.5rem 0;
+}
+
+// Fix content area spacing
+.post-content {
+  padding: 2rem 0;
+}
+
+// Fix header spacing
+.post-header {
+  margin-bottom: 2rem;
+}
+
+// Fix research section spacing
+.research-section {
+  margin: 2rem 0;
+}
+
+// Fix publications spacing
+.publication-item {
+  margin-bottom: 2rem;
+  padding: 1rem;
