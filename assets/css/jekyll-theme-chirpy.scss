@@ -7,7 +7,7 @@
 
 #sidebar {
   position: fixed !important;
-  top: 100px;
+  top: 100;
   left: 0;
   height: 110vh;
   overflow-x: auto;
@@ -32,6 +32,7 @@
 }
 
 .sidebar-bottom {
+  top: 0px;
   position: relative;
   padding-top: 2rem;
   margin-top: auto;
