@@ -9,10 +9,10 @@
   position: fixed !important;
   top: 0;
   left: 0;
-  height: 90vh;
+  height: 100vh;
   overflow-x: auto;
   width: 260px;
-  z-index: 0;
+  z-index: 1;
   background-color: var(--sidebar-bg);
   border-right: 1px solid var(--border-color);
   transition: transform 0.3s ease;
