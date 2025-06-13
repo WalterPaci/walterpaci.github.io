@@ -5,6 +5,7 @@ theme: jekyll-theme-chirpy
 
 plugins:
   - jekyll-sass-converter
+  - jemoji
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -97,6 +98,12 @@ sass:
 theme_mode: # [light | dark]
 extras_css:
   - /assets/css/style.scss
+
+head_addon:
+  css:
+    - href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      type: "text/css"
+      crossorigin: "anonymous"
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

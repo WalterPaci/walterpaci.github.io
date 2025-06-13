@@ -6,6 +6,7 @@ gem "jekyll-theme-chirpy", "~> 7.3"
 gem "jekyll-sass-converter"
 gem "webrick"
 gem "jekyll"
+gem "jemoji"
 
 gem "html-proofer", "~> 5.0", group: :test
 
