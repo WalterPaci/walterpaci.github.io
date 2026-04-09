@@ -5,6 +5,8 @@ order: 2
 ---
 
 ### 2025
+- **Poster:** *They want to pretend not to understand: The Limits of Current LLMs in Interpreting Implicit Content of Political Discourse*, Findings of ACL 2025 – Vienna, Austria.
+- **Talk:** "In my political ingenuity...": *how LLMs detect and classify irony in Italian political discourse*, HuMaLa 2025 – Granada, Spain.
 - **Invited Talk:** *Challenges for LLMs: Dealing with presuppositions and implicatures*, Master of Lenguaje e Inteligencia artificial – Universidad Autónoma de Madrid, Madrid.
 - **Talk:** "Nella mia ingenuità politica...": *come i Large Language Models riconoscono e analizzano l'ironia nell'italiano parlato politico*, Advances in the Language into Act Theory and Applications, Lablita Workshop: le conversazioni del GSCP – University of Florence, Italy.
 
@@ -15,5 +17,8 @@ order: 2
 - **Invited Talk:** *Large language Models and Prompt Engineering techniques*, master of Digital Humanities – University of Pisa, Italy
 
 ### 2023
+- **Conference:** Ninth edition of CliC-it.
+- **Summer School:** European Summer School in Logic, Language and Information (ESSLLI).
 - **Talk:** *Exploiting Large Language Models based on GPTs to solve readability issues on Italian bureaucratic texts*, 1st International Conference on “Automated texts In the ROMance languages” (AI-ROM) – Technische Universität Dresden, Germany
+- **Conference:** Conference of the Italian Association for Artificial Intelligence – University of Udine, Italy.
 

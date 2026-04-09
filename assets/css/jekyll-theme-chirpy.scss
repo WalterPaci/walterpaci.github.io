@@ -79,6 +79,14 @@
   line-height: 1.5;
 }
 
+.bio-content p,
+.bio-content li,
+.news-content p,
+.news-content li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .bio-content h2 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -86,8 +94,8 @@
 }
 
 .news-list {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding-left: 1.25rem;
   margin: 0;
 }
 
@@ -95,6 +103,31 @@
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border-color);
+}
+
+.news-list > li + li {
+  margin-top: 0.45rem;
+}
+
+/* Compatibility with the previous HTML structure:
+   hide bullets on month rows and keep bullets only on actual news text. */
+.news-list > .news-item {
+  list-style: none !important;
+}
+
+.news-list > .news-item::marker {
+  content: "";
+}
+
+.news-list > .news-item > p {
+  margin: 0 0 0 1.25rem;
+  position: relative;
+}
+
+.news-list > .news-item > p::before {
+  content: "•";
+  position: absolute;
+  left: -1rem;
 }
 
 .news-date {
@@ -109,6 +142,29 @@
 
 .post {
   margin-top: 2rem;
+}
+
+main .content,
+main article .content,
+main .content p,
+main .content li,
+main .content div {
+  text-align: justify !important;
+  text-justify: inter-word;
+}
+
+@media (max-width: 768px) {
+  main .content,
+  main article .content,
+  main .content p,
+  main .content li,
+  main .content div,
+  .bio-content p,
+  .bio-content li,
+  .news-content p,
+  .news-content li {
+    text-align: left;
+  }
 }
 
 /* -------------------- RESEARCH PAGE CSS --------------------------------------  */
