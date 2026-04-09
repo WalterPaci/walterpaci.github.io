@@ -18,6 +18,16 @@
   transition: transform 0.3s ease;
 }
 
+#sidebar ul.nav {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#sidebar ul.nav > li::marker {
+  content: "";
+}
+
 #sidebar #avatar {
   margin-top: -2rem;
   margin-bottom: 1rem;
@@ -144,21 +154,19 @@
   margin-top: 2rem;
 }
 
-main .content,
-main article .content,
 main .content p,
 main .content li,
-main .content div {
+main article .content p,
+main article .content li {
   text-align: justify !important;
   text-justify: inter-word;
 }
 
 @media (max-width: 768px) {
-  main .content,
-  main article .content,
   main .content p,
   main .content li,
-  main .content div,
+  main article .content p,
+  main article .content li,
   .bio-content p,
   .bio-content li,
   .news-content p,
