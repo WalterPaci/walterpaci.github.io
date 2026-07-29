@@ -7,26 +7,26 @@ order: 1
 <div class="research-item">
   <h2 class="research-title">Teaching LLMs to unveil tendentious implicit contents of Italian
 political communication</h2>
-  <div class="research-venue">(Forthcoming) Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL)</div>
+  <div class="research-venue">(2026) Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL), LREC2026</div>
   <div class="research-authors"><b>Walter Paci</b>, Lorenzo Gregori, Alessandro Panunzi</div>
   <p>A study on instruction-tuned Llama 3.1 and Qwen 2.5 models evaluated on the IMPAQTS-PID benchmark for implicit
   content interpretation. It shows that these smaller fine-tuned models clearly outperform much larger models in a
   zero-shot setting.</p>
   <div class="research-links">
-    <a href="">BibTeX</a>
-    <a href="">PDF</a>
+    <a href="/assets/bibtex/teaching_llms_2026.bib">BibTeX</a>
+    <a href="http://lrec-conf.org/proceedings/lrec2026/workshops/cmcl/2026.cmcl-1.0.pdf#page=236.06">PDF</a>
   </div>
 </div>
 
 <div class="research-item">
   <h2 class="research-title">Evaluating the abilities of LLMs and SpeechLMs in discovering implicit contents of Italian political speeches</h2>
-  <div class="research-venue">(Forthcoming) Proceedings of the Workshop on Natural Language Processing for Political Sciences (PoliticalNLP)</div>
+  <div class="research-venue">(2026) Proceedings of the Workshop on Natural Language Processing for Political Sciences (PoliticalNLP), LREC2026</div>
   <div class="research-authors">Lorenzo Gregori, <b>Walter Paci</b>, Alessandro Panunzi</div>
   <p>A study evaluating how well LLMs and SpeechLMs identify implicit meanings in Italian political discourse using the
   multimodal IMPAQTS-PIDMM benchmark. Results show that text-only models outperform multimodal ones in this task.</p>
   <div class="research-links">
-    <a href="">BibTeX</a>
-    <a href="">PDF</a>
+    <a href="/assets/bibtex/evaluating_the_abilities_2026.bib">BibTeX</a>
+    <a href="http://lrec-conf.org/proceedings/lrec2026/workshops/politicalnlp/2026.politicalnlp-1.0.pdf#page=178.06">PDF</a>
   </div>
 </div>
 
